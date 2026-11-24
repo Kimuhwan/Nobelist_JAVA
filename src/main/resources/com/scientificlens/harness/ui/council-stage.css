@@ -1,0 +1,103 @@
+.council-scroll { -fx-background-color: transparent; -fx-background: transparent; -fx-padding: 0; }
+.council-scroll > .viewport { -fx-background-color: transparent; }
+.council-stage {
+    -fx-font-family: "Noto Sans KR";
+    -fx-background-color: -c-surface;
+    -fx-background-radius: 16;
+    -fx-border-color: -c-border;
+    -fx-border-radius: 16;
+    -fx-min-height: 380;
+    -fx-pref-height: 430;
+}
+.council-header { -fx-padding: 16 20 12 20; }
+.council-eyebrow { -fx-font-size: 12px; -fx-font-weight: bold; -fx-text-fill: -c-reader-blue; }
+.council-current { -fx-font-size: 16px; -fx-font-weight: bold; -fx-text-fill: -c-stage-ink; }
+.council-count { -fx-font-size: 12px; -fx-text-fill: -c-reading-muted; }
+.council-follow {
+    -fx-background-color: -c-stage-light;
+    -fx-background-radius: 8;
+    -fx-border-color: -c-border;
+    -fx-border-radius: 8;
+    -fx-text-fill: -c-reader-blue;
+    -fx-font-size: 12px;
+    -fx-padding: 4 8;
+    -fx-min-height: 32;
+    -fx-min-width: 72;
+}
+.council-follow:hover { -fx-background-color: -c-primary-soft; -fx-border-color: -c-orbit; }
+.council-follow:focused { -fx-border-color: -c-primary; -fx-border-width: 2; -fx-padding: 3 7; }
+.council-body { -fx-border-color: -c-border transparent -c-border transparent; }
+.council-constellation {
+    -fx-background-color: radial-gradient(center 48% 46%, radius 72%, -c-surface 0%, -c-stage-light 46%, -c-stage 100%);
+}
+.council-grid-dot { -fx-fill: -c-orbit; -fx-opacity: 0.72; }
+.council-orbit { -fx-fill: transparent; -fx-stroke: -c-orbit; -fx-stroke-width: 1; -fx-opacity: 0.8; }
+.council-link { -fx-stroke: -c-orbit; -fx-stroke-width: 1; -fx-opacity: 0.65; }
+.council-route { -fx-fill: transparent; -fx-stroke: -c-signal; -fx-stroke-width: 2; -fx-opacity: 0.85; }
+.council-transfer { -fx-fill: -c-primary; -fx-stroke: -c-surface; -fx-stroke-width: 2; }
+.council-node {
+    -c-node: -c-primary;
+    -fx-background-color: -c-surface;
+    -fx-background-radius: 16;
+    -fx-border-radius: 16;
+    -fx-border-color: -c-border;
+    -fx-border-width: 1;
+    -fx-padding: 4 8;
+    -fx-alignment: center;
+    -fx-effect: dropshadow(gaussian, -c-orbit, 10, 0.08, 0, 3);
+    -fx-cursor: hand;
+}
+.council-node:hover { -fx-background-color: -c-stage-light; -fx-border-color: -c-node; }
+.council-node:pressed { -fx-background-color: -c-stage; }
+.council-node:focused { -fx-border-color: -c-primary; -fx-border-width: 2; -fx-padding: 3 7; }
+.council-node:inspected { -fx-border-color: -c-node; -fx-border-width: 2; -fx-padding: 3 7; }
+.council-node:active { -fx-background-color: -c-primary-soft; -fx-border-color: -c-node; -fx-border-width: 2; -fx-padding: 3 7; }
+.council-node-name { -fx-font-size: 14px; -fx-font-weight: bold; -fx-text-fill: -c-stage-ink; -fx-alignment: center; }
+.council-node-state { -fx-font-size: 11px; -fx-text-fill: -c-reading-muted; -fx-alignment: center; }
+.council-node-signal { -fx-fill: -c-node; -fx-opacity: 0.65; }
+.council-node:active .council-node-state { -fx-text-fill: -c-reader-blue; }
+.council-node:active .council-node-signal { -fx-opacity: 1; }
+.council-node:complete .council-node-signal { -fx-fill: -c-success; }
+.council-node:active:complete .council-node-signal { -fx-fill: -c-node; }
+.council-node:dense { -fx-background-radius: 12; -fx-border-radius: 12; -fx-padding: 3 4; }
+.council-node:dense .council-node-name { -fx-font-size: 11px; }
+.council-node:dense .council-node-state { -fx-font-size: 10px; }
+.council-node:dense:inspected, .council-node:dense:active, .council-node:dense:focused { -fx-padding: 2 3; }
+.council-coordinator {
+    -fx-background-color: linear-gradient(to bottom, -c-surface, -c-primary-soft);
+    -fx-border-color: -c-orbit;
+    -fx-effect: dropshadow(gaussian, -c-orbit, 20, 0.2, 0, 6);
+}
+.council-coordinator .council-node-name { -fx-font-size: 16px; }
+.council-node:compact { -fx-padding: 0 4; }
+.council-node:compact:focused, .council-node:compact:inspected, .council-node:compact:active { -fx-padding: 0 3; }
+.council-coordinator:compact .council-node-name { -fx-font-size: 13px; }
+.council-coordinator:compact .council-node-state { -fx-font-size: 10px; }
+.council-role { -fx-background-radius: 12; -fx-border-radius: 12; -fx-effect: none; }
+.council-role .council-node-name { -fx-font-size: 12px; }
+.council-role .council-node-state { -fx-font-size: 10px; }
+.council-category-1 { -c-node: -c-graph-1; }
+.council-category-2 { -c-node: -c-graph-2; }
+.council-category-3 { -c-node: -c-graph-3; }
+.council-category-4 { -c-node: -c-graph-4; }
+.council-category-5 { -c-node: -c-graph-5; }
+.council-category-6 { -c-node: -c-graph-6; }
+.council-category-7 { -c-node: -c-graph-7; }
+.council-category-8 { -c-node: -c-graph-8; }
+.council-planning-note { -fx-font-size: 13px; -fx-text-fill: -c-reading-muted; -fx-text-alignment: center; -fx-line-spacing: 4; }
+.council-detail-scroll { -fx-background-color: -c-surface; -fx-background: -c-surface; -fx-padding: 0; -fx-border-color: transparent transparent transparent -c-border; }
+.council-detail-scroll > .viewport { -fx-background-color: -c-surface; }
+.council-detail { -fx-padding: 16 20; }
+.council-detail-title { -fx-font-size: 20px; -fx-font-weight: bold; -fx-text-fill: -c-ink; }
+.council-detail-state { -fx-font-size: 12px; -fx-text-fill: -c-reader-blue; }
+.council-method { -fx-font-size: 13px; -fx-text-fill: -c-reading-muted; -fx-line-spacing: 4; }
+.council-copy { -fx-font-size: 15px; -fx-text-fill: -c-ink; -fx-line-spacing: 4; }
+.council-field-label { -fx-font-size: 12px; -fx-font-weight: bold; -fx-text-fill: -c-reading-muted; }
+.council-record { -fx-padding: 12 0; -fx-border-color: -c-border transparent transparent transparent; }
+.council-record-action { -fx-font-size: 13px; -fx-font-weight: bold; -fx-text-fill: -c-reader-blue; }
+.council-profile { -fx-text-fill: -c-reader-blue; -fx-font-size: 12px; }
+.council-profile > .title { -fx-background-color: -c-stage-light; -fx-background-radius: 8; -fx-padding: 8; }
+.council-profile > .content { -fx-background-color: -c-surface; -fx-border-color: -c-border; -fx-padding: 12; }
+.council-profile:focused > .title { -fx-border-color: -c-primary; -fx-border-radius: 8; }
+.council-provenance { -fx-font-size: 12px; -fx-text-fill: -c-reading-muted; }
+.council-footer { -fx-padding: 8 20; }

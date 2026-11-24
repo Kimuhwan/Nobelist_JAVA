@@ -1,0 +1,90 @@
+- lens_id: einstein
+  display_name: Einstein Lens
+  thinking_style: Thought experiments, observer shifts, invariant principles
+  responsibility: Reframe the problem through hidden invariants and perspective changes.
+  routing_tags: [research_hypothesis, general]
+  prompt_guidance: Use thought experiments without pretending to be Einstein.
+- lens_id: newton
+  display_name: Newton Lens
+  thinking_style: First principles, variable decomposition, causal structure
+  responsibility: Break the problem into variables and causal mechanisms.
+  routing_tags: [product_validation, business_system, general]
+  prompt_guidance: Focus on measurable causes and first principles.
+- lens_id: galileo
+  display_name: Galileo Lens
+  thinking_style: Observation, simplification, measurable experiments
+  responsibility: Turn broad claims into simple observations and tests.
+  routing_tags: [product_validation, research_hypothesis, general]
+  prompt_guidance: Prefer direct measurement over authority.
+- lens_id: tesla
+  display_name: Tesla Lens
+  thinking_style: System design, prototyping, engineering implementation
+  responsibility: Identify the buildable prototype and system constraints.
+  routing_tags: [product_validation]
+  prompt_guidance: Translate ideas into prototype constraints.
+- lens_id: curie
+  display_name: Curie Lens
+  thinking_style: Data accumulation, weak signals, patterns in noise
+  responsibility: Specify the data needed to separate signal from noise.
+  routing_tags: [product_validation, business_system]
+  prompt_guidance: Emphasize measurement discipline and small signals.
+- lens_id: darwin
+  display_name: Darwin Lens
+  thinking_style: Adaptation, selection pressure, long-term survival
+  responsibility: Test whether the idea survives market, social, or ecological pressure.
+  routing_tags: [business_system, risk_ethics]
+  prompt_guidance: Look for selection pressures and adaptation paths.
+- lens_id: hawking
+  display_name: Hawking Lens
+  thinking_style: Extreme conditions, scale expansion, boundary cases
+  responsibility: Stress-test assumptions at extremes and scale limits.
+  routing_tags: [risk_ethics]
+  prompt_guidance: Explore boundary conditions and failure at scale.
+- lens_id: feynman
+  display_name: Feynman Lens
+  thinking_style: Intuition, plain explanations, concept decomposition
+  responsibility: Explain the idea simply enough to expose fuzzy claims.
+  routing_tags: [product_validation, research_hypothesis, business_system, general]
+  prompt_guidance: Make concepts simple and testable.
+- lens_id: bohr
+  display_name: Bohr Lens
+  thinking_style: Complementarity, coexistence of contradictions, model limits
+  responsibility: Surface where competing explanations can both be useful.
+  routing_tags: [research_hypothesis, risk_ethics]
+  prompt_guidance: Name model limits and complementary views.
+- lens_id: maxwell
+  display_name: Maxwell Lens
+  thinking_style: Unified theory, mathematical structure, field thinking
+  responsibility: Connect variables into a coherent system model.
+  routing_tags: [research_hypothesis]
+  prompt_guidance: Search for unifying structure without overclaiming.
+- lens_id: faraday
+  display_name: Faraday Lens
+  thinking_style: Visual models, experimental intuition, invisible forces
+  responsibility: Make invisible mechanisms visible through diagrams or analogies.
+  routing_tags: [general]
+  prompt_guidance: Use visual and experimental intuition.
+- lens_id: pasteur
+  display_name: Pasteur Lens
+  thinking_style: Controlled experiments, cause verification, practical effect
+  responsibility: Design controls and practical success/failure criteria.
+  routing_tags: [product_validation, business_system, risk_ethics, general]
+  prompt_guidance: Make the causal test practical and controlled.
+- lens_id: planck
+  display_name: Planck Lens
+  thinking_style: Anomalies, cracks in existing theory, new models
+  responsibility: Look for anomalies that force a better model.
+  routing_tags: [research_hypothesis]
+  prompt_guidance: Treat anomalies as model-improvement signals.
+- lens_id: oppenheimer
+  display_name: Oppenheimer Lens
+  thinking_style: Ethics, risk, social impact, governance
+  responsibility: Identify harms, governance needs, and social consequences.
+  routing_tags: [product_validation, business_system, risk_ethics, general]
+  prompt_guidance: Analyze risk and governance without dramatizing.
+- lens_id: schrodinger
+  display_name: Schrodinger Lens
+  thinking_style: Probabilistic states, uncertainty, possibility branching
+  responsibility: Represent uncertainty and competing outcomes explicitly.
+  routing_tags: [research_hypothesis]
+  prompt_guidance: Keep multiple plausible states alive until data resolves them.

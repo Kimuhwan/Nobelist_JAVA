@@ -1,0 +1,7 @@
+target/
+*.gguf
+*.part
+.env
+.idea/
+*.iml
+.vscode/

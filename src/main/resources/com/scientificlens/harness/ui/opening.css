@@ -1,0 +1,105 @@
+.council-opening {
+    -opening-canvas: #d8a36e;
+    -opening-ink: #2d2218;
+    -opening-glass: rgba(27,24,21,.66);
+    -opening-border: rgba(255,255,255,.5);
+    -opening-control: rgba(255,255,255,.90);
+    -opening-selected: rgba(255,255,255,.94);
+    -opening-focus: #225ebf;
+    -fx-background-color: -opening-canvas;
+    -fx-font-family: "Noto Sans KR";
+    -fx-cursor: hand;
+}
+.council-opening .opening-kicker,
+.council-opening .opening-title,
+.council-opening .opening-subtitle {
+    -fx-text-fill: -opening-ink;
+    -fx-font-weight: bold;
+    -fx-padding: 0;
+    -fx-effect: dropshadow(gaussian, rgba(255,255,255,.45), 1, 0, 0, 1);
+}
+.council-opening .opening-kicker {
+    -fx-font-family: "Cascadia Code";
+    -fx-font-size: 13px;
+    -fx-min-height: 15; -fx-pref-height: 15; -fx-max-height: 15;
+}
+.council-opening .opening-title {
+    -fx-font-size: 76px; -fx-font-weight: 900;
+    -fx-min-height: 82; -fx-pref-height: 82; -fx-max-height: 82;
+    -fx-alignment: center;
+}
+.council-opening .opening-subtitle {
+    -fx-font-size: 18px;
+    -fx-min-height: 27; -fx-pref-height: 27; -fx-max-height: 27;
+}
+.council-opening .opening-display { -fx-font-family: "Nobellist Opening"; }
+.opening-has-sc #opening-language-zh, .opening-has-sc:chinese .opening-subtitle,
+.opening-has-sc:chinese .opening-enter { -fx-font-family: "Nobellist Opening SC"; }
+.opening-control-tray, .council-opening .opening-motion {
+    -fx-background-color: -opening-glass;
+    -fx-background-radius: 6;
+    -fx-border-radius: 6;
+    -fx-border-width: 1;
+    -fx-border-color: -opening-border;
+    -fx-padding: 4;
+}
+.council-opening .opening-language, .opening-window-buttons .window-button {
+    -fx-background-color: transparent;
+    -fx-background-radius: 4;
+    -fx-border-radius: 4;
+    -fx-border-color: transparent;
+    -fx-text-fill: -opening-control;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}
+.council-opening .opening-language {
+    -fx-font-size: 12px;
+    -fx-min-width: 64;
+    -fx-min-height: 40;
+    -fx-padding: 0 10;
+}
+.opening-window-buttons .window-button {
+    -fx-font-size: 15px;
+    -fx-min-width: 30;
+    -fx-pref-width: 30;
+    -fx-min-height: 28;
+    -fx-pref-height: 28;
+    -fx-padding: 0;
+}
+.council-opening .opening-language:selected, .council-opening .opening-language:hover,
+.opening-window-buttons .window-button:hover, .council-opening .opening-motion:selected {
+    -fx-background-color: -opening-selected;
+    -fx-text-fill: -opening-ink;
+}
+.council-opening .opening-motion {
+    -fx-text-fill: -opening-control;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-padding: 7 12;
+    -fx-cursor: hand;
+}
+.council-opening .opening-enter {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+    -fx-padding: 10 14;
+    -fx-graphic-text-gap: 12;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(gaussian, rgba(29,18,11,.85), 8, .4, 0, 2);
+    -fx-cursor: hand;
+}
+.council-opening .opening-enter:hover { -fx-background-color: rgba(27,24,21,.35); }
+.council-opening .opening-prompt-ring {
+    -fx-fill: transparent; -fx-stroke: white; -fx-stroke-width: 2;
+    -fx-effect: dropshadow(gaussian, rgba(255,255,255,.4), 5, .5, 0, 0);
+}
+.council-opening .opening-focus-ring { -fx-fill: transparent; -fx-stroke: rgba(87,54,28,.45); }
+.opening-keyboard-outline { -fx-border-color: -opening-focus; -fx-border-width: 4; }
+.council-opening .button:focus-visible, .council-opening .toggle-button:focus-visible {
+    -fx-border-color: -opening-focus;
+    -fx-border-insets: -2;
+    -fx-border-width: 2;
+}

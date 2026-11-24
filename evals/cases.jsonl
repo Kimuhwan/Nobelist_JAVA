@@ -1,0 +1,5 @@
+{"id":"agriculture_waste","input":"AI로 농산물 폐기량을 줄이는 서비스를 만들 수 있을까?","mode":"research","must_include":["core_hypothesis","required_data","failure_criteria"]}
+{"id":"startup_validation","input":"B2B SaaS 스타트업 아이디어를 검증하고 싶다","mode":"research","must_include":["weakest_assumption","first_experiment","next_decision"]}
+{"id":"research_question","input":"상온에서 새로운 냉각장치를 만들 수 있다는 가설을 검증하고 싶다","mode":"research","must_include":["core_hypothesis","success_criteria","failure_criteria"]}
+{"id":"ethics_student_data","input":"학생 데이터를 써서 학습 성과를 예측하는 서비스를 만들고 싶다","mode":"fast","must_include":["required_data","failure_criteria","next_decision"]}
+{"id":"engineering_feasibility","input":"저전력 센서 네트워크로 창고 온도를 안정적으로 관리할 수 있을까?","mode":"council","must_include":["core_hypothesis","first_experiment","success_criteria"]}
